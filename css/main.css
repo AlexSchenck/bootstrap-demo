@@ -1,5 +1,3 @@
-/* 
-
 @import url(http://fonts.googleapis.com/css?family=Rock+Salt);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 
@@ -12,4 +10,43 @@ h1, h2, h3, h4, .lead {
     font-family: 'Rock Salt', Helvetica, sans-serif;
 }
 
-*/
+nav li {
+	list-style: none;
+	display: inline;
+	padding-right: 2em;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 250px;
+}
+
+.lead {
+	color: green;
+}
+
+.awesome {
+	font-size: 3em;
+}
+
+@media (min-width: 992px) {
+	body {
+		font-size: 24px;
+		color: red;
+	}
+}
+
+@media (max-width: 991px) {
+	.lead {
+		display: none;
+	}
+}
+
+@media (max-width: 768px) {
+	body {
+		font-size: 20px;
+		color: blue;
+	}
+}
